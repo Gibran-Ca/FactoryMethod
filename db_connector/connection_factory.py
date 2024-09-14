@@ -1,4 +1,3 @@
-
 from abc import ABC, abstractmethod
 from db_connector.connection import Connection
 

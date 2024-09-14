@@ -1,5 +1,7 @@
 
-from db_connector.factory import ConnectionFactory
+from .abstract_factory import ConnectionFactory
+
+
 from db_connector.mysql_connection import MySQLConnection
 
 class MySQLConnectionFactory(ConnectionFactory):
